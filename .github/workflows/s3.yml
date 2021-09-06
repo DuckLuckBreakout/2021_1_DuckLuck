@@ -52,7 +52,7 @@ jobs:
         with:
           args: --endpoint-url https://hb.bizmrg.com --acl public-read --follow-symlinks
         env:
-          AWS_S3_BUCKET: duckluckbreakout
+          AWS_S3_BUCKET: duckluckmarket-front
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           SOURCE_DIR: 'build'
